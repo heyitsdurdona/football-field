@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url("./images/football-pitch.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+            width: 100%;
+            min-height: 100vh;
+            position: relative;
+            overflow: hidden;
+        }
+
+        img {
+            position: absolute;
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <audio id="kickSound" src="./audios/kicked.wav"></audio>
+    <img id="ball" src="./images/ball.webp" alt="ball" width="80">
+
+    <script src="./main.js"></script>
+</body>
+</html>
