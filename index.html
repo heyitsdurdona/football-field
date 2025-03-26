@@ -15,17 +15,18 @@
             position: relative;
             overflow: hidden;
         }
-
+        
         img {
+            /* transform: translate(-50%, -50%); */
             position: absolute;
-            transition: all 0.3s ease;
+            transition: top 0.7s linear, left 0.7s linear, transform 0.7s ease;
         }
     </style>
 </head>
 <body>
     <audio id="kickSound" src="./audios/kicked.wav"></audio>
-    <img id="ball" src="./images/ball.webp" alt="ball" width="80">
-
+    <img id="ball" src="./images/ball.webp" alt="ball" width="80" height="80">
+    
     <script src="./main.js"></script>
 </body>
 </html>
